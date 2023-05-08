@@ -1,0 +1,18 @@
+.spin {
+    margin: 20px auto;
+    padding: auto;
+    width: 100%;
+}
+
+.spin figure {
+    width: fit-content;
+    transition: all 0.1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spin figure:hover {
+    transform-origin: center;
+    transform: rotate(180deg);
+}
